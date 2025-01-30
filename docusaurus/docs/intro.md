@@ -1,47 +1,62 @@
 ---
 sidebar_position: 1
+title: Introduction
 ---
 
-# Tutorial Intro
+## Welcome
 
-Let's discover **Docusaurus in less than 5 minutes**.
+This course, "C for Everyone: Structured Programming," builds on the earlier course "C for Everyone: Fundamentals." Here's what you need to know coming into this class.
 
-## Getting Started
+### Getting Started
 
-Get started by **creating a new site**.
+There are several ways to have reached this point. You might have previously studied from the textbook *A Book on C*, covering roughly the first six chapters. If you completed the Coursera course *C for Everyone: Fundamentals*, you are exactly where you need to be.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Alternatively, a basic understanding of Java or Python can also be helpful, as many elements are similar to those in C. If you are new to C, you can quickly catch up by reviewing some basic elements.
 
-### What you'll need
+### Prerequisites
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+You should know how to use a compiler and editor. Common tools include the GNU C compiler and editors like VI or Vim, but there are many other options.
 
-## Generate a new site
+### Lexical Elements
 
-Generate a new Docusaurus site using the **classic template**.
+Understanding the language's lexical elements is crucial. These include:
+- Identifiers
+- Constants
+- Operators
+- Punctuation
+- Keywords
+- Comments
 
-The classic template will automatically be added to your project after you run the command:
+### Data Types
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Programs operate on data types. Key types in C include:
+- Integer types
+- Floating point types (float and double)
+- Character type (char)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Flow of Control
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Flow control structures are essential for making programs functional. These include:
+- Compound statements
+- While and for loops
+- Conditional statements (if, if-else, switch)
 
-## Start your site
+### Functions
 
-Run the development server:
+Functions are a central organizing concept in C. The main function is where the program starts, but subroutines or subfunctions help organize larger code. Functions should be concise and have arguments passed by value.
 
-```bash
-cd my-website
-npm run start
-```
+### Advanced Topics
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+The fundamentals course covered arrays, pointers, and strings. Arrays handle large amounts of data, and pointers are related to indexing. Strings in C are treated as arrays of characters.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+### Sorting Algorithms
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Familiarity with sorting algorithms like merge sort, bubble sort, or quick sort is expected, as they demonstrate command of arrays and iteration.
+
+### Moving Forward
+
+Review any necessary material, and prepare for more advanced topics. This course will cover creating new data types and writing larger programs by properly structuring them.
+
+---
+
+Let's get started with the course!
