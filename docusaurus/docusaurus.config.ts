@@ -5,8 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'C for E',
-  tagline: 'C is for everyone',
+  title: 'C for everyone: Structured Programming',
   favicon: 'img/c_logo.svg',
 
   // Set the production url of your site here
@@ -17,8 +16,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Lucoky', // Usually your GitHub org/user name.
+  projectName: 'c-for-everyone', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -70,7 +69,7 @@ const config: Config = {
     navbar: {
       title: 'C for everyone',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'C Logo',
         src: 'img/c_logo.svg',
       },
       items: [
@@ -81,7 +80,7 @@ const config: Config = {
           label: 'Tutorial',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Lucoky',
           label: 'GitHub',
           position: 'right',
         },
@@ -100,37 +99,16 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Lucoky',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} C for everyone, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

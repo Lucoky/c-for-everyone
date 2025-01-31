@@ -16,12 +16,14 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+            This course, "C for Everyone: Structured Programming," builds on the earlier course "C for Everyone: Fundamentals."
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+             ⏱️ Get Started
           </Link>
         </div>
       </div>
